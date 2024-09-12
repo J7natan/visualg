@@ -15,6 +15,6 @@ Inicio
    
    m<- km*1000
    
-   escreval ("em metros é:", m)
+   escreval ("em metros é:", m,"m")
 
 Fimalgoritmo
