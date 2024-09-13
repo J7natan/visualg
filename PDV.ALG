@@ -45,6 +45,6 @@ Inicio
     fimescolha
 
     // Exibe o valor total
-    escreval("O valor total é: R$", total:5:2)
+    escreval("O valor total é: R$", total:5:1)
 
 Fimalgoritmo
