@@ -1,7 +1,7 @@
 Algoritmo "Antecessor e Sucessor"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Ízaias
-// Descrição   : Descreve o antecessor e o sucessor! (função)
+// Descrição   : Descreve o antecessor e o sucessor!
 // Autor(a)    : Juan natanael Marques dos Santos
 // Data atual  : 12/09/2024
 Var
