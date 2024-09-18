@@ -10,13 +10,13 @@ Var
   numeros: vetor[1..10] de inteiro
   pares: vetor[1..10] de inteiro
   impares: vetor[1..10] de inteiro
-  i, p, imp: inteiro
+  i, par, imp: inteiro
 
 Inicio
  // Seção de Comandos, procedimento, funções, operadores, etc...
 
     // Inicializa os contadores de pares e ímpares
-        p := 1
+        par := 1
         imp := 1
     // Lê os 10 números
         para i de 1 ate 10 faca
@@ -27,8 +27,8 @@ Inicio
     // Separa os 10 números em pares e ímpares
        para i de 1 ate 10 faca
        se numeros[i] mod 2 = 0 entao
-       pares[p] := numeros[i]
-       p := p + 1
+       pares[par] := numeros[i]
+       par := par + 1
        senao
        impares[imp] := numeros[i]
        imp := imp + 1
@@ -37,7 +37,7 @@ Inicio
 
     // Exibe os números pares
        escreval("Números pares:")
-       para i de 1 ate p-1 faca
+       para i de 1 ate par-1 faca
        escreval(pares[i])
        fimpara
 
